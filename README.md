@@ -20,21 +20,6 @@ Runs inference using a trained CNN model (covid_model.h5).
 
 Displays prediction results (COVID-19 / Normal) with confidence score.
 
-📂 Project Structure
-csharp
-Copy
-Edit
-├── app.py                 # Flask application
-├── static/                # CSS, images
-├── templates/             # HTML UI templates
-├── model/                 # Trained CNN model
-├── utils.py               # Preprocessing & prediction helpers
-├── test_images/           # Sample X-ray images
-├── requirements.txt       # Dependencies
-└── README.md              # Documentation
-📊 Dataset & Training
-Dataset: COVID-19 Radiography Database – Kaggle
-
 Frameworks: TensorFlow, Keras
 
 Training: Performed on publicly available datasets with high accuracy on test data.
